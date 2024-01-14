@@ -1,4 +1,4 @@
-# Course_Oopc
+# Kurs Objektorienterad Programmering i C&#x23;
 
 [UP](../dir.md) [Here](.)
 
@@ -17,6 +17,7 @@
 
 [Vecka 03/Moodle](http://moodle.molk.se/mod/page/view.php?id=5958)
 
+- D6: facit finns i PDF:en
 - [D7](D7/dir.md)
 - [D8](D8/dir.md)
-
+- D9: inga övningar
