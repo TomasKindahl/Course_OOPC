@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>490</x>
+      <y>360</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+X &gt; 0?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>410</y>
+      <w>130</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[no]
+lw=2</panel_attributes>
+    <additional_attributes>110.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>410</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>490</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>then do stuff 1
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>610</x>
+      <y>490</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>else do stuff 2
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>490</x>
+      <y>580</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>continue here
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>520</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>60.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>520</y>
+      <w>70</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>370</x>
+      <y>150</y>
+      <w>430</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes>halign=left
+lw=1
+fg=#CC00CC
+*If-clause:*
+--
+if (x &gt; 0) {
+     then_do_stuff_1();
+}
+else {
+     else_do_stuff_2();
+}
+continue_here();
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>850</x>
+      <y>150</y>
+      <w>560</w>
+      <h>700</h>
+    </coordinates>
+    <panel_attributes>halign=left
+fg=#CC00CC
+lw=1
+*If-else-chain:*
+--
+if (x &gt; 0) {
+     do_stuff_X_gt_0();
+}
+else if (Y == 12) {
+     do_stuff_Y_eq_12();
+}
+else if (Z &lt; 7) {
+     do_stuff_Z_lt_7();
+}
+continue_here();
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>890</x>
+      <y>440</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+X &gt; 0?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>490</y>
+      <w>70</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>440</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>90.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1130</x>
+      <y>450</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>do stuff X gt 0
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1130</x>
+      <y>550</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>do stuff Y eq 12
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>890</x>
+      <y>760</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>continue here
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>560</y>
+      <w>330</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;220.0;310.0;220.0;310.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>460</y>
+      <w>350</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;340.0;330.0;340.0;330.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>890</x>
+      <y>540</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+Y = 12?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>540</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>90.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1130</x>
+      <y>650</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>do stuff Z lt 7
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>890</x>
+      <y>640</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+Z &lt; 7?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>640</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>90.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>590</y>
+      <w>70</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>690</y>
+      <w>70</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>660</y>
+      <w>310</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;100.0;290.0;100.0;290.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1460</x>
+      <y>150</y>
+      <w>560</w>
+      <h>880</h>
+    </coordinates>
+    <panel_attributes>halign=left
+fg=#CC00CC
+lw=1
+*Switch-clause:*
+--
+switch(n)
+   case 1:
+     case_1_do_stuff();
+     break;
+   case 2:
+     case_2_do_stuff();
+     break;
+   case 3:
+     case_3_do_stuff();
+     break;
+   default:
+     default_do_stuff();
+     break;
+}
+continue_here();
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1500</x>
+      <y>550</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+n = 1?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1570</x>
+      <y>600</y>
+      <w>70</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>550</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>90.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1740</x>
+      <y>560</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>case 1 do stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1740</x>
+      <y>660</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>case 2 do stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1500</x>
+      <y>950</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>continue here
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>670</y>
+      <w>330</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;300.0;310.0;300.0;310.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>570</y>
+      <w>350</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;420.0;330.0;420.0;330.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1500</x>
+      <y>650</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+n = 2?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>650</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>90.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1740</x>
+      <y>760</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>case 3 do stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1500</x>
+      <y>750</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+n = 3?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>750</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>90.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1570</x>
+      <y>700</y>
+      <w>70</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1570</x>
+      <y>800</y>
+      <w>70</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>770</y>
+      <w>310</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;180.0;290.0;180.0;290.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1500</x>
+      <y>860</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>default do stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1570</x>
+      <y>890</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>390</x>
+      <y>1380</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+i &gt; 0?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>1430</y>
+      <w>70</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>1380</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>70.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>610</x>
+      <y>1390</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>repeat stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>1500</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>continue here
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>1080</y>
+      <w>450</w>
+      <h>490</h>
+    </coordinates>
+    <panel_attributes>halign=left
+lw=1
+fg=#CC00CC
+*While-clause:*
+--
+i = 12;
+while (i &gt; 0) {
+     repeat_stuff();
+     i = i − 1;
+}
+continue_here();
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>1270</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>i = 12
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>1300</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>1330</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>850</x>
+      <y>1080</y>
+      <w>450</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>halign=left
+lw=1
+fg=#CC00CC
+*For-loop:*
+--
+for(i = 12; i &gt; 0; i = i − 1) {
+     repeat_stuff();
+}
+continue_here();
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1370</x>
+      <y>1580</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+i &gt; 0?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1440</x>
+      <y>1630</y>
+      <w>70</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1370</x>
+      <y>1400</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>repeat stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1370</x>
+      <y>1700</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>continue here
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1340</x>
+      <y>1080</y>
+      <w>330</w>
+      <h>690</h>
+    </coordinates>
+    <panel_attributes>halign=left
+lw=1
+fg=#CC00CC
+*Do-while-loop:*
+--
+i = 12;
+do {
+     repeat_stuff();
+     i = i − 1;
+} while (i &gt; 0);
+continue_here();
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1370</x>
+      <y>1290</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>i = 12
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1440</x>
+      <y>1320</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1460</x>
+      <y>1350</y>
+      <w>180</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2
+m2=[yes]</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;160.0;10.0;160.0;260.0;70.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1440</x>
+      <y>1430</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1600</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+j &lt; intarr?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1830</x>
+      <y>1650</y>
+      <w>70</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1910</x>
+      <y>1600</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>70.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1980</x>
+      <y>1610</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>repeat stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1720</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>continue here
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1710</x>
+      <y>1080</y>
+      <w>460</w>
+      <h>710</h>
+    </coordinates>
+    <panel_attributes>halign=left
+lw=1
+fg=#CC00CC
+*Foreach-loop:*
+--
+foreach(int i in intarr) {2
+     repeat_stuff();
+}
+continue_here();
+--
+len = intarr.Length;
+for(j = 0; j &lt; len; j = j + 1) {
+      i = intarr[j];
+      repeat_stuff();
+}
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1730</x>
+      <y>1340</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>j = 0
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1830</x>
+      <y>1550</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1850</x>
+      <y>1480</y>
+      <w>230</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0;210.0;10.0;210.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1730</x>
+      <y>1430</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>len = intarr.Length
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1730</x>
+      <y>1520</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>i = intarr[j]
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1830</x>
+      <y>1370</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1830</x>
+      <y>1460</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>610</x>
+      <y>1320</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>i = i − 1
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>1350</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>880</x>
+      <y>1340</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>type=decision
+i &gt; 0?
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>1390</y>
+      <w>70</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[no]
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>1340</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[yes]
+lw=2</panel_attributes>
+    <additional_attributes>70.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1350</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>repeat stuff
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>880</x>
+      <y>1460</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>continue here
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>880</x>
+      <y>1230</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>i = 12
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>1260</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>970</x>
+      <y>1290</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1280</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>i = i − 1
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1180</x>
+      <y>1310</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1370</x>
+      <y>1490</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>i = i − 1
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1440</x>
+      <y>1520</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1980</x>
+      <y>1520</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>j = j + 1
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2050</x>
+      <y>1550</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
